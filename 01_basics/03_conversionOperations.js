@@ -85,3 +85,34 @@ let stringNum = String(someNumber)
 
 console.log(stringNum);
 console.log(typeof stringNum);
+
+
+
+// ********************************* Operations ******************************************
+
+console.log(2 + 2);
+console.log(2 - 2);
+console.log(2 * 3);
+console.log(2 / 2);
+console.log(11 % 2);
+console.log(2 ** 5); // 2 ^ 5
+
+// Some confusing operations  
+
+// if there is string in first place then everything will be treated as string
+// if string is not in first place then other operations will be done first
+
+console.log('1' + 2);
+console.log("1" + 2);
+console.log(1 + '2');
+console.log(1 + "2\n");
+
+console.log('1' + 2 + 2);
+console.log("1" + 2 + 2);
+console.log(1 + 2 + '2');
+console.log(1 + 2 + "2\n");
+
+console.log(3 + '1' + 2);
+console.log(3 + "1" + 2);
+console.log(1 + '2' + 3);
+console.log(1 + "2" + 3);
